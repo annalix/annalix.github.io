@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1 img {
+    height: 2rem;
+    vertical-align:text-top;
+    padding-right: 15px;
+}
+
+span {
+    color:rgb(41, 0, 192);
+}
+
+.success, .fail {
+    padding: 15px;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.success {
+    background-color: rgb(29, 85, 29);
+}
+
+.fail {
+    background-color: rgb(125, 8, 8);
+}
+
+.centered {
+    text-align: center;
+}
+
+#book-form {
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 15px;
+    border: 1px solid #778899;
+    border-radius: 15px;
+    background-color: #f4e1d2;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;;
+    font-size: 1.1rem;
+}
+
+.form-group input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid  #778899;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.form-group input[type="text"]:focus {
+    border-color: #293264;
+    outline: none;
+    box-shadow: 0 0 5px rgba(41, 0, 192, 0.2);
+}
+
+#book-form input[type="submit"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #293264;
+    color: #fff;
+    background-color:  rgb(41, 0, 192);
+    font-family: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#book-form input[type="submit"]:hover {
+    background-color:  #293264;
+}
+
+table {
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    border: 1px solid #778899;
+    background-color: #f4e1d2;;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid #778899;
+    padding: 5px;
+}
+
+td { 
+    border: 1px solid #778899;
+    padding: 7px;
+}
+
+.delete {
+    text-decoration: none;
+    color: #293264;
+    font-weight: bold;
+}
+
+.delete:hover {
+    color: rgb(41, 0, 192);
+}
